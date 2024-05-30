@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.header ul li {
+    margin: 0 10px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+}
+
+.header ul li a:hover {
+    color: #007bff;
+}
+
+.header .logo {
+    height: 50px;
+}
+
+.img1 {
+    align-content: center;
+    align-items: center;
+}
+
+.boy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e9ecef;
+    transition: background 0.3s ease;
+}
+
+.boy:hover {
+    background: #f8f9fa;
+}
+
+.boy-t1 {
+    width: 50%;
+    text-align: center;
+}
+
+.boy-t1 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+    transition: transform 0.3s ease;
+}
+
+.boy-t1 h1:hover {
+    transform: scale(1.05);
+}
+
+.boy-t1 p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.boy-t2 {
+    width: 50%;
+}
+
+.boy-t2 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.boy-t2 img:hover {
+    transform: scale(1.05);
+}
+
+.promo-item {
+    display: flex;
+    justify-content: center;
+}
+
+.promo-item .img1 {
+    margin-top: 80px;
+    transition: transform 0.3s ease;
+}
+
+.promo-item .img1:hover {
+    transform: scale(1.05);
+}
+
+.offer {
+    margin-top: 50px;
+    text-align: center;
+    background: red;
+    padding: 30px 0;
+    transition: background 0.3s ease;
+}
+
+.offer:hover {
+    background: darkred;
+}
+
+.offer h2 {
+    color: white;
+}
+
+.off {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.featured-products {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.featured-products h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tshirt {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tshirt img {
+    width: 200px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+.tshirt img:hover {
+    transform: scale(1.05);
+}
+
+.price {
+    font-weight: bold;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.products {
+    padding-left: 70px;
+    text-align: center;
+}
+
+.cuph {
+    margin-top: 50%;
+    padding-top: 8%;
+}
+
+.cup-h1 {
+    font-size: 2em;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.cup-p {
+    text-align: center;
+}
+
+.cup-btn {
+    display: block;
+    margin: 20px auto;
+}
+
+.media {
+    margin-top: 20px;
+    text-align: center;
+    background: gray;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    border-radius: 20%;
+    text-align: center;
+    text-decoration: none;
+    background: #3B5998;
+    color: white;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.fa:hover {
+    transform: scale(1.1);
+    background: #2d4373;
+}
+
+.footer {
+    background: black;
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    padding: 10px;
+}
